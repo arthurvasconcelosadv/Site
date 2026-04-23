@@ -1,0 +1,105 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/blog",
+      "destination": "/blog.html",
+      "permanent": true
+    },
+    {
+      "source": "/insalubridade",
+      "destination": "/insalubridade.html",
+      "permanent": true
+    },
+    {
+      "source": "/rescisao-indireta",
+      "destination": "/rescisao-indireta.html",
+      "permanent": true
+    },
+    {
+      "source": "/assedio-moral",
+      "destination": "/assedio-moral.html",
+      "permanent": true
+    },
+    {
+      "source": "/acidente-trabalho",
+      "destination": "/acidente-trabalho.html",
+      "permanent": true
+    },
+    {
+      "source": "/jornada",
+      "destination": "/jornada.html",
+      "permanent": true
+    },
+    {
+      "source": "/atendimento-online",
+      "destination": "/online.html",
+      "permanent": true
+    },
+    {
+      "source": "/advogado-uberlandia",
+      "destination": "/uberlandia.html",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains; preload"
+        }
+      ]
+    },
+    {
+      "source": "/css/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/js/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    }
+  ]
+}
