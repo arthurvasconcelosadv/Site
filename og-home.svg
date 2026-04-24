@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0D1B2A"/>
+      <stop offset="100%" stop-color="#1A2F45"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#C9A84C" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Glow orbs -->
+  <circle cx="950" cy="200" r="280" fill="url(#glow)" filter="url(#blur1)"/>
+  <circle cx="150" cy="500" r="200" fill="#253D55" opacity="0.5" filter="url(#blur1)"/>
+
+  <!-- Grid lines (subtle) -->
+  <g stroke="#C9A84C" stroke-width="0.5" opacity="0.06">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="200"  y1="0" x2="200"  y2="630"/>
+    <line x1="400"  y1="0" x2="400"  y2="630"/>
+    <line x1="600"  y1="0" x2="600"  y2="630"/>
+    <line x1="800"  y1="0" x2="800"  y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Left accent bar -->
+  <rect x="72" y="160" width="5" height="310" rx="2.5" fill="#C9A84C"/>
+
+  <!-- Badge -->
+  <rect x="96" y="158" width="300" height="36" rx="18" fill="#C9A84C" fill-opacity="0.12" stroke="#C9A84C" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="246" y="182" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#C9A84C" letter-spacing="3">UBERLÂNDIA · BRASIL</text>
+
+  <!-- Main headline -->
+  <text x="96" y="258" font-family="Georgia, 'Playfair Display', serif" font-size="58" font-weight="900" fill="white" letter-spacing="-1">Advogado</text>
+  <text x="96" y="330" font-family="Georgia, 'Playfair Display', serif" font-size="58" font-weight="900" fill="white" letter-spacing="-1">Trabalhista</text>
+
+  <!-- Gold accent word -->
+  <text x="96" y="400" font-family="Georgia, 'Playfair Display', serif" font-size="58" font-weight="900" fill="#C9A84C" letter-spacing="-1">em Uberlândia</text>
+
+  <!-- Subtitle -->
+  <text x="96" y="450" font-family="Arial, sans-serif" font-size="22" fill="rgba(255,255,255,0.65)" font-weight="400">Defesa dos direitos do trabalhador · Atendimento online para todo o Brasil</text>
+
+  <!-- Divider -->
+  <rect x="96" y="478" width="80" height="3" rx="1.5" fill="#C9A84C"/>
+
+  <!-- Stats row -->
+  <text x="96"  y="530" font-family="Georgia, serif" font-size="28" font-weight="900" fill="#C9A84C">+500</text>
+  <text x="96"  y="552" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.5)">Clientes</text>
+  <text x="240" y="530" font-family="Georgia, serif" font-size="28" font-weight="900" fill="#C9A84C">98%</text>
+  <text x="240" y="552" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.5)">Êxito</text>
+  <text x="360" y="530" font-family="Georgia, serif" font-size="28" font-weight="900" fill="#C9A84C">10+</text>
+  <text x="360" y="552" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.5)">Anos</text>
+
+  <!-- WhatsApp CTA pill (right side) -->
+  <rect x="760" y="260" width="360" height="110" rx="12" fill="#25D366" fill-opacity="0.12" stroke="#25D366" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="940" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#25D366" letter-spacing="1">CONSULTA GRATUITA</text>
+  <text x="940" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="900" fill="white">(34) 99999-9999</text>
+  <text x="940" y="366" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.5)">WhatsApp · Resposta no mesmo dia</text>
+
+  <!-- Balance scale icon (right) -->
+  <g transform="translate(840, 400)" opacity="0.12">
+    <rect x="0" y="0" width="200" height="4" rx="2" fill="#C9A84C"/>
+    <rect x="97" y="0" width="6" height="120" rx="3" fill="#C9A84C"/>
+    <rect x="62" y="120" width="76" height="6" rx="3" fill="#C9A84C"/>
+    <circle cx="100" cy="0" r="8" fill="#C9A84C"/>
+    <line x1="20"  y1="4"  x2="20"  y2="55" stroke="#C9A84C" stroke-width="3" stroke-linecap="round"/>
+    <line x1="50"  y1="4"  x2="50"  y2="55" stroke="#C9A84C" stroke-width="3" stroke-linecap="round"/>
+    <path d="M10 55 Q35 72 60 55" stroke="#C9A84C" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <line x1="150" y1="4"  x2="150" y2="55" stroke="#C9A84C" stroke-width="3" stroke-linecap="round"/>
+    <line x1="180" y1="4"  x2="180" y2="55" stroke="#C9A84C" stroke-width="3" stroke-linecap="round"/>
+    <path d="M140 55 Q165 72 190 55" stroke="#C9A84C" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- OAB badge -->
+  <rect x="760" y="396" width="200" height="40" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="860" y="422" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="rgba(255,255,255,0.45)" font-weight="700" letter-spacing="1">OAB/MG · [Nº]</text>
+
+  <!-- Bottom domain bar -->
+  <rect x="0" y="598" width="1200" height="32" fill="rgba(201,168,76,0.08)"/>
+  <text x="600" y="619" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.35)" letter-spacing="2">arthurvasconcelos.adv.br</text>
+</svg>
